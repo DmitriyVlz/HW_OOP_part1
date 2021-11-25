@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656eb96f-27f6-49f1-98be-37df586315e7" name="Changes" comment="after error">
+    <list default="true" id="656eb96f-27f6-49f1-98be-37df586315e7" name="Changes" comment="after corrected POM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/domain/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/domain/Radio.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.RadioTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.RadioTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.RadioTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.RadioTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/RadioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/RadioTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW_CI_JaCoCo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +67,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest">
+  <component name="RunManager" selected="JUnit.RadioTest.increaseCurrentVolume">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
@@ -76,6 +79,22 @@
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.decrease2NumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW_OOP_part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="METHOD_NAME" value="decrease2NumStation" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.increaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.increaseNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
         <pattern>
@@ -122,23 +141,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="increaseVolume" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.setCurrentNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW_OOP_part1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="setCurrentNumStation" />
+      <option name="METHOD_NAME" value="increaseNumStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.decreaseCurrentVolume" />
         <item itemvalue="JUnit.RadioTest.increaseCurrentVolume" />
-        <item itemvalue="JUnit.RadioTest.setCurrentNumStation" />
-        <item itemvalue="JUnit.RadioTest.increaseVolume" />
+        <item itemvalue="JUnit.RadioTest.decreaseCurrentVolume" />
+        <item itemvalue="JUnit.RadioTest.increaseNumStation" />
+        <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.decrease2NumStation" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637849847977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="after corrected POM">
+      <created>1637851549281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637851549281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="after error" />
-    <option name="LAST_COMMIT_MESSAGE" value="after error" />
+    <MESSAGE value="after corrected POM" />
+    <option name="LAST_COMMIT_MESSAGE" value="after corrected POM" />
   </component>
 </project>
