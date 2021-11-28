@@ -34,15 +34,6 @@ class RadioTest {
         int expected = 9;
         assertEquals(expected, prev.currentNumStation);
     }
-    // @Test
-    // currentStation != 0
-    //  public void decreaseNum2Station() {
-    //     Radio pre = new Radio();
-    //    pre.currentNumStation = 1;
-    //     pre.decreaseNumStation();
-    //  int expected = 9;
-    //    assertEquals(expected, pre.currentNumStation);
-
 
     @Test
     // Считаем на 1 станцию вниз
@@ -120,15 +111,33 @@ class RadioTest {
         assertEquals(expected, minus2.currentVolume);
     }
 
-   @Test
-           //Выставляем номер станции
+    @Test
+    //Выставляем номер станции в диапазоне
 
-   public void setCurrentNumStation() {
-     Radio num = new Radio();
-       num.setCurrentNumStation(8);// устанавливаем вручную радиостанцию
+    public void setcurrentNumStation() {
+        Radio num = new Radio();
+        num.setCurrentNumStation(8);// устанавливаем вручную радиостанцию
 
-      assertEquals(8, num.getCurrentNumStation());
-  }
+        assertEquals(8, num.getCurrentNumStation());
+    }
+
+    @Test
+    //Выставляем номер станции выше диапазона
+    public void setcurrentUpNumStation() {
+        Radio num = new Radio();
+        num.setCurrentNumStation(10);// устанавливаем вручную радиостанцию
+
+        assertEquals(0, num.getCurrentNumStation());
+    }
+
+    @Test
+    //Выставляем номер станции ниже диапазона
+    public void setcurrentDounNumStation() {
+        Radio num = new Radio();
+        num.setCurrentNumStation(-1);// устанавливаем вручную радиостанцию
+
+        assertEquals(0, num.getCurrentNumStation());
+    }
 }
 
 
