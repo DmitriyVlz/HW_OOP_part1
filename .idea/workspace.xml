@@ -67,8 +67,8 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.increaseCurrentVolume">
-    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RadioTest.decrease2CurrentVolume">
+    <configuration name="RadioTest.decrease2CurrentVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
         <pattern>
@@ -78,22 +78,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.decrease2NumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW_OOP_part1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="decrease2NumStation" />
+      <option name="METHOD_NAME" value="decrease2CurrentVolume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,6 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.increase2CurrentVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW_OOP_part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="METHOD_NAME" value="increase2CurrentVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RadioTest.increaseCurrentVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
@@ -131,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.increaseNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setCurrentNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="increaseNumStation" />
+      <option name="METHOD_NAME" value="setCurrentNumStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.increaseCurrentVolume" />
+        <item itemvalue="JUnit.RadioTest.decrease2CurrentVolume" />
+        <item itemvalue="JUnit.RadioTest.setCurrentNumStation" />
         <item itemvalue="JUnit.RadioTest.decreaseCurrentVolume" />
-        <item itemvalue="JUnit.RadioTest.increaseNumStation" />
-        <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.decrease2NumStation" />
+        <item itemvalue="JUnit.RadioTest.increase2CurrentVolume" />
+        <item itemvalue="JUnit.RadioTest.increaseCurrentVolume" />
       </list>
     </recent_temporary>
   </component>
