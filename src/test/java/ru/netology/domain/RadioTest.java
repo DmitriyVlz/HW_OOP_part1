@@ -9,17 +9,17 @@ class RadioTest {
     @Test
     public void increaseNumStation() {   // создаём объект
         Radio next = new Radio();   //
-        next.currentNumStation = 9;        //  обращение к переменной, задаём её
+        next.currentNumStation =9;       //  обращение к переменной, задаём её
         next.increaseNumStation();  //  обращение к методу
-        int expected = 0;           //  ожидаемый результат
-        assertEquals(expected, next.currentNumStation);  //  сравнение ожидаемого,что у нас по факту в методе
+        //int expected = 0;           //  ожидаемый результат
+        assertEquals(0, next.currentNumStation);  //  сравнение ожидаемого,что у нас по факту в методе
     }
 
     @Test
     // Считаем на 1 станцию вверх
     public void increase2NumStation() {   // создаём объект
         Radio next2 = new Radio();   //
-        next2.currentNumStation = 7;        //  обращение к переменной, задаём её
+        next2.currentNumStation =7 ;       //  обращение к переменной, задаём её
         next2.increaseNumStation();  //  обращение к методу
         int expected = 8;           //  ожидаемый результат
         assertEquals(expected, next2.currentNumStation);  //  сравнение ожидаемого,что у нас по факту в мето
@@ -114,30 +114,29 @@ class RadioTest {
     @Test
     //Выставляем номер станции в диапазоне
 
-    public void setcurrentNumStation() {
+    public void setput1NumStation() {
         Radio num = new Radio();
-        num.setCurrentNumStation(8);// устанавливаем вручную радиостанцию
+        num.setPutNumStation(8);// устанавливаем вручную радиостанцию
 
-        assertEquals(8, num.getCurrentNumStation());
+        assertEquals(8, num.getPutNumStation());
     }
 
     @Test
     //Выставляем номер станции выше диапазона
-    public void setcurrentUpNumStation() {
+    public void setput2NumStation() {
         Radio num = new Radio();
-        num.setCurrentNumStation(10);// устанавливаем вручную радиостанцию
+        num.setPutNumStation(10);// устанавливаем вручную радиостанцию
 
-        assertEquals(0, num.getCurrentNumStation());
+        assertEquals(0, num.getPutNumStation());
     }
 
     @Test
     //Выставляем номер станции ниже диапазона
-    public void setcurrentDounNumStation() {
-        Radio num = new Radio();
-        num.setCurrentNumStation(-1);// устанавливаем вручную радиостанцию
+     public void setputNumStation() {
+           Radio num = new Radio();
+        num.setPutNumStation(-1);// устанавливаем вручную радиостанцию
 
-        assertEquals(0, num.getCurrentNumStation());
+        assertEquals(0, num.getPutNumStation());
     }
 }
-
 

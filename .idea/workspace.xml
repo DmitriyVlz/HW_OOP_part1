@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656eb96f-27f6-49f1-98be-37df586315e7" name="Changes" comment="after correction Tests">
+    <list default="true" id="656eb96f-27f6-49f1-98be-37df586315e7" name="Changes" comment="after 100% coverege">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
@@ -67,8 +67,8 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.setcurrentDounNumStation">
-    <configuration name="RadioTest.decrease2CurrentVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RadioTest.setputNumStation">
+    <configuration name="RadioTest.increase2NumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +78,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="decrease2CurrentVolume" />
+      <option name="METHOD_NAME" value="increase2NumStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setCurrentNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.increaseNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +94,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="setCurrentNumStation" />
+      <option name="METHOD_NAME" value="increaseNumStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setcurrentDounNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setput1NumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +110,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="setcurrentDounNumStation" />
+      <option name="METHOD_NAME" value="setput1NumStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setcurrentNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setput2NumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
         <pattern>
@@ -126,13 +126,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="setcurrentNumStation" />
+      <option name="METHOD_NAME" value="setput2NumStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setcurrentUpNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setputNumStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW_OOP_part1" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="setcurrentUpNumStation" />
+      <option name="METHOD_NAME" value="setputNumStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.setcurrentDounNumStation" />
-        <item itemvalue="JUnit.RadioTest.setcurrentUpNumStation" />
-        <item itemvalue="JUnit.RadioTest.setcurrentNumStation" />
-        <item itemvalue="JUnit.RadioTest.decrease2CurrentVolume" />
-        <item itemvalue="JUnit.RadioTest.setCurrentNumStation" />
+        <item itemvalue="JUnit.RadioTest.setputNumStation" />
+        <item itemvalue="JUnit.RadioTest.setput2NumStation" />
+        <item itemvalue="JUnit.RadioTest.setput1NumStation" />
+        <item itemvalue="JUnit.RadioTest.increaseNumStation" />
+        <item itemvalue="JUnit.RadioTest.increase2NumStation" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638089405611</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="after 100% coverege">
+      <created>1638094146231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638094146231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,43 +214,24 @@
     <MESSAGE value="after error" />
     <MESSAGE value="after corrected POM" />
     <MESSAGE value="after correction Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="after correction Tests" />
+    <MESSAGE value="after 100% coverege" />
+    <option name="LAST_COMMIT_MESSAGE" value="after 100% coverege" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java</url>
-          <line>41</line>
-          <properties class="ru.netology.domain.Radio" method="setCurrentNumStation">
+          <line>55</line>
+          <properties class="ru.netology.domain.Radio" method="getPutNumStation">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="6" />
+          <line>56</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

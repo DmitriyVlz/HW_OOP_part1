@@ -6,6 +6,7 @@ public class Radio {
 
     int currentVolume;
     int currentNumStation;
+    private int putNumStation;
 
 
     // Список станций вверх, Переходим с 9 станции на 0,
@@ -39,21 +40,23 @@ public class Radio {
     }
 
     //Выставляем номер станции
-    public void setCurrentNumStation(int currentNumStation) {
-        if (currentNumStation > 9) { // проверяем диапазон, если больше, то выходим, если нет, то идём на след IF
+    public void setPutNumStation(int putNumStation)  {
+        if (putNumStation > 9) { // проверяем диапазон, если больше, то выходим, если нет, то идём на след IF
             return;
         }
-        if (currentNumStation < 0) {  //
+        if (putNumStation < 0) {  //
             return;
         }
         // здесь уверены, что все проверки прошли
 
-        this.currentNumStation = currentNumStation;
+        this.putNumStation = putNumStation;
     }
 
-    public int getCurrentNumStation() {
-        return currentNumStation;
+
+    public int getPutNumStation() {
+        return putNumStation;
     }
+
 
     // Уменьшение уровня громкости, Уменьшение громкости ниже  0 не идёт
     public void decreaseVolume() {
