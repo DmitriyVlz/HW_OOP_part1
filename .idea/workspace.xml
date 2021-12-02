@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656eb96f-27f6-49f1-98be-37df586315e7" name="Changes" comment="after 100% coverege">
+    <list default="true" id="656eb96f-27f6-49f1-98be-37df586315e7" name="Changes" comment="with gitignore commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.github/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/domain/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/domain/Radio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.RadioTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.RadioTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.RadioTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.RadioTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/RadioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/RadioTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW_CI_JaCoCo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,6 +53,11 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\appat\IdeaProjects\HW_OOP_part1\.github" />
+      <recent name="C:\Users\appat\IdeaProjects\HW_OOP_part1\.idea" />
+      <recent name="C:\Users\appat\IdeaProjects\HW_OOP_part1\src\test\java\ru\netology\domain" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.netology.domain" />
@@ -195,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638094146231</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final commit">
+      <created>1638107316509</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638107316509</updated>
+    </task>
+    <task id="LOCAL-00006" summary="with gitignore commit">
+      <created>1638107439062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638107439062</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +230,9 @@
     <MESSAGE value="after corrected POM" />
     <MESSAGE value="after correction Tests" />
     <MESSAGE value="after 100% coverege" />
-    <option name="LAST_COMMIT_MESSAGE" value="after 100% coverege" />
+    <MESSAGE value="final commit" />
+    <MESSAGE value="with gitignore commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="with gitignore commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
