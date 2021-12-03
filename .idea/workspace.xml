@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656eb96f-27f6-49f1-98be-37df586315e7" name="Changes" comment="with gitignore commit">
+    <list default="true" id="656eb96f-27f6-49f1-98be-37df586315e7" name="Changes" comment="change gitignore3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.github/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/domain/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/domain/Radio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/RadioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/RadioTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.RadioTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.RadioTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.RadioTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.RadioTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW_VK&amp;Manager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -55,6 +55,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\appat\IdeaProjects\HW_OOP_part1" />
       <recent name="C:\Users\appat\IdeaProjects\HW_OOP_part1\.github" />
       <recent name="C:\Users\appat\IdeaProjects\HW_OOP_part1\.idea" />
       <recent name="C:\Users\appat\IdeaProjects\HW_OOP_part1\src\test\java\ru\netology\domain" />
@@ -210,7 +211,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638107439062</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change gitignore">
+      <created>1638441154356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638441154356</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change gitignore2">
+      <created>1638441222408</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638441222408</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change gitignore3">
+      <created>1638441303163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638441303163</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +254,10 @@
     <MESSAGE value="after 100% coverege" />
     <MESSAGE value="final commit" />
     <MESSAGE value="with gitignore commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="with gitignore commit" />
+    <MESSAGE value="change gitignore" />
+    <MESSAGE value="change gitignore2" />
+    <MESSAGE value="change gitignore3" />
+    <option name="LAST_COMMIT_MESSAGE" value="change gitignore3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
